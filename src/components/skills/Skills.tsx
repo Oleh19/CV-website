@@ -24,7 +24,7 @@ export const Skills: FC = () => {
 				Skills
 			</h3>
 
-			<div className='grid xs:grid-cols-3 sm:grid-cols-4 sm:gap-5 '>
+			<div className='grid xs:grid-cols-3 xs:gap-3 sm:grid-cols-4 sm:gap-5 '>
 				{icons.map((icon, index) => (
 					<Skill img={icon} key={index} />
 				))}

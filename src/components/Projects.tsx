@@ -7,11 +7,13 @@ export const Projects: FC = () => {
 	const projects = [
 		{
 			link: 'https://silly-peony-8410a7.netlify.app',
-			image: project1
+			image: project1,
+			name: 'Video Hosting Layout'
 		},
 		{
-			link: 'https://app.netlify.com/sites/graceful-biscuit-03cc06/overview',
-			image: project2
+			link: 'https://graceful-biscuit-03cc06.netlify.app/',
+			image: project2,
+			name: 'Online Shop'
 		}
 	]
 
@@ -34,7 +36,7 @@ export const Projects: FC = () => {
 						className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-7 md:p-44 h-screen '
 					>
 						<motion.img
-							className=' w-auto h-auto'
+							className=' w-auto max-h-[90%]'
 							initial={{
 								y: -300,
 								opacity: 0
@@ -49,7 +51,11 @@ export const Projects: FC = () => {
 						<div className='space-y-10 px-0 md:px-10 max-w-6xl'>
 							<h4 className='text-4xl font-semibold text-center'>
 								<span className='underline decoration-red-500/50'>
-									{index + 1} of {projects.length}
+									{project.name}
+								</span>{' '}
+								<br />
+								<span className=' text-xl underline-none '>
+									Click for more information
 								</span>
 							</h4>
 						</div>

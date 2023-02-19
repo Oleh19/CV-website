@@ -5,7 +5,7 @@ import title from '../../assets/image/title.jpg'
 
 export const Hero: FC = () => {
 	const [text] = useTypewriter({
-		words: ["Hi, I'm Oleh", "I'm your best option"],
+		words: ["Hi, I'm Oleh", "I can do what you need"],
 		loop: true,
 		delaySpeed: 2000
 	})

@@ -10,7 +10,7 @@ import { SlArrowUp } from 'react-icons/sl'
 
 export const App: FC = () => {
 	return (
-		<div className='bg-main text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-red-500 '>
+		<div className='bg-main text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-thumb-red-500 '>
 			<Header />
 			<section id='hero' className='snap-center'>
 				<Hero />
@@ -34,7 +34,7 @@ export const App: FC = () => {
 			<a href='#hero'>
 				<footer className='sticky bottom-5 w-full cursor-pointer'>
 					<div className='flex items-center justify-center'>
-						<SlArrowUp className=' h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer ' />
+						<SlArrowUp className='xs:h-5 xs:w-5 sm:h-10 sm:w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer ' />
 					</div>
 				</footer>
 			</a>

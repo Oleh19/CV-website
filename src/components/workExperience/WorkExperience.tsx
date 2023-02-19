@@ -14,7 +14,7 @@ export const WorkExperience: FC = () => {
 				Experience
 			</h3>
 
-			<div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-5 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-red-500'>
+			<div className='w-full justify-center flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-5 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-red-500'>
 				<ExperienceCard />
 			</div>
 		</motion.div>

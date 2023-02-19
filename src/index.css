@@ -4,6 +4,7 @@
 
 body {
 	background-color: #080a1a;
+	font-family: Nunito, 'Times New Roman', Times, serif;
 }
 
 @layer components {
@@ -12,6 +13,6 @@ body {
 	}
 
 	.contactInput {
-		@apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-black text-gray-500 placeholder-gray-500 transition-all focus:text-white focus:border-red-700 hover:border-gray-700;
+		@apply outline-none bg-slate-400/10 rounded-sm border-b xs:pl-2 sm:px-6 sm:py-4 border-black text-gray-500 placeholder-gray-500 transition-all focus:text-white focus:border-red-700 hover:border-gray-700;
 	}
 }

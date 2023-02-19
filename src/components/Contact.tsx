@@ -17,39 +17,39 @@ export const Contact: FC = () => {
 	}
 
 	return (
-		<div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center '>
-			<h3 className=' absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl '>
+		<div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto px-10 items-center '>
+			<h3 className=' absolute top-24 uppercase tracking-[20px] text-gray-500 xs:text-xl sm:text-2xl xs:opacity-0 sm:opacity-100'>
 				Contact
 			</h3>
 
 			<div className='flex flex-col space-y-10'>
-				<h4 className=' text-4xl font-semibold text-center '>
+				<h4 className='xs:text-xl xs:mt-8 sm:text-4xl font-semibold text-center '>
 					I have just what you need.{' '}
 					<span className='decoration-red-500 underline'>Lets Talk</span>
 				</h4>
 
-				<div className='space-y-10'>
+				<div className='xs:space-y-1 sm:space-y-10 xs:text-sm sm:text-2xl xs:ml-5'>
 					<div className='flex items-center space-x-5'>
 						<PhoneIcon className=' text-red-500 h-7 w-7 animate-pulse ' />
-						<p className='text-2xl'>+38 073 044 98 65</p>
+						<p>+38 073 044 98 65</p>
 					</div>
 
 					<div className='flex items-center space-x-5'>
 						<EnvelopeIcon className=' text-red-500 h-7 w-7 animate-pulse ' />
-						<p className='text-2xl'>ilchenko19061998@gmail.com</p>
+						<p>ilchenko19061998@gmail.com</p>
 					</div>
 
 					<div className='flex items-center space-x-5'>
 						<MapIcon className=' text-red-500 h-7 w-7 animate-pulse ' />
-						<p className='text-2xl'>Kyiv, Ukraine</p>
+						<p>Kyiv, Ukraine</p>
 					</div>
 				</div>
 
 				<form
 					onSubmit={handleSubmit(onSubmit)}
-					className=' flex flex-col space-y-2 w-fit mx-auto '
+					className=' flex flex-col space-y-2 xs:w-[90%] sm:w-fit mx-auto '
 				>
-					<div className='flex space-x-2'>
+					<div className=' flex overflow-hidden  space-x-2'>
 						<input
 							{...register('name')}
 							placeholder='Name'

@@ -10,7 +10,7 @@ export const About: FC = () => {
 			transition={{ duration: 1.5 }}
 			className=' h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'
 		>
-			<h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl pl-[20px]'>
+			<h3 className=' xs:opacity-0 sm:opacity-100 absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl pl-[20px]'>
 				About
 			</h3>
 
@@ -34,13 +34,14 @@ export const About: FC = () => {
 					Background
 				</h4>
 				<p className='sm:text-base xs:text-xs'>
-					Something about myself Lorem ipsum dolor sit amet consectetur,
-					adipisicing elit. Facere dolorum esse rem animi inventore eos ut
-					quisquam odio eveniet aliquam assumenda laborum similique, totam
-					nostrum impedit quam minus culpa veniam. Lorem ipsum, dolor sit amet
-					consectetur adipisicing elit. Cumque inventore voluptatum ullam quia
-					alias nulla, saepe dolore voluptate quisquam amet at aut fugit ab
-					recusandae voluptatibus, veniam excepturi repellendus laudantium.
+					Frontend Developer with a ability to collaborate effectively with
+					senior developers . Enjoy working closely with team members to enshure
+					workloads are effectively redirected to bottleneck and personally
+					picking up the sluck when nessesary. With a passion for both personal
+					growth and for software development, I spend time for coding to learn
+					new technology while sharpening existing skills. Ready to apply my
+					passion for coding to a talanted engineering team to develop quality
+					solutions.
 				</p>
 			</div>
 		</motion.div>
