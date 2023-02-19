@@ -9,7 +9,7 @@ export const BackgroundCircles: FC = () => {
 			}}
 			animate={{
 				scale: [1, 2, 2, 3, 1],
-                opacity: ["20%", "20%", "50%", "80%","20%"]
+				opacity: ['20%', '20%', '50%', '80%', '20%']
 			}}
 			transition={{
 				duration: 2.5

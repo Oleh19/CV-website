@@ -10,4 +10,8 @@ body {
 	.heroButton {
 		@apply px-6 py-2 border border-main rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-red-500 hover:text-red-500;
 	}
+
+	.contactInput {
+		@apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-black text-gray-500 placeholder-gray-500 transition-all focus:text-white focus:border-red-700 hover:border-gray-700;
+	}
 }
