@@ -9,11 +9,12 @@ import redux from '../../assets/image/redux.png'
 import sass from '../../assets/image/sass.png'
 import html from '../../assets/image/html.webp'
 import css from '../../assets/image/css.webp'
-import php from '../../assets/image/php.png'
 import vue from '../../assets/image/vue.png'
+import next from '../../assets/image/next.png'
+import nuxt from '../../assets/image/nuxt.svg'
 
 
-const icons = [react, ts, js, tailwind, redux, sass, html, css, php, vue]
+const icons = [ts, js, react, next, redux, vue, nuxt, html, css, sass, tailwind]
 
 export const Skills: FC = () => {
 	return (

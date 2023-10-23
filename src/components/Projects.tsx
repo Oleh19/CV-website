@@ -3,6 +3,7 @@ import { FC } from 'react'
 import project1 from '../assets/image/project1.png'
 import project2 from '../assets/image/project2.png'
 import project3 from '../assets/image/project3.png'
+import project4 from '../assets/image/project4.png'
 
 export const Projects: FC = () => {
 	const projects = [
@@ -12,13 +13,18 @@ export const Projects: FC = () => {
 			name: 'Video Hosting Layout'
 		},
 		{
-			link: 'https://graceful-biscuit-03cc06.netlify.app/',
+			link: 'https://next-portfolio-platform-for-reading-documents.vercel.app/',
 			image: project2,
+			name: 'Platform for reading documents'
+		},
+		{
+			link: 'https://graceful-biscuit-03cc06.netlify.app/',
+			image: project3,
 			name: 'Online Shop'
 		},
 		{
 			link: 'https://github.com/Oleh19/Oleh19-Portfolio-FullStack-Shop',
-			image: project3,
+			image: project4,
 			name: 'Shop (Firebase + React)'
 		}
 	]
