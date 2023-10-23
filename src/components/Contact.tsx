@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { PhoneIcon, MapIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import { MapIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import { useForm, SubmitHandler } from 'react-hook-form'
 
 type Inputs = {
@@ -13,7 +13,7 @@ export const Contact: FC = () => {
 	const { register, handleSubmit } = useForm<Inputs>()
 
 	const onSubmit: SubmitHandler<Inputs> = formData => {
-		window.location.href = `mailto:ilchenko19061998@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message} (${formData.email})`
+		window.location.href = `mailto:tkac19061998@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}, ${formData.message} (${formData.email})`
 	}
 
 	return (
@@ -29,14 +29,10 @@ export const Contact: FC = () => {
 				</h4>
 
 				<div className='xs:space-y-1 sm:space-y-10 xs:text-sm sm:text-2xl xs:ml-5'>
-					<div className='flex items-center space-x-5'>
-						<PhoneIcon className=' text-red-500 h-7 w-7 animate-pulse ' />
-						<p>+38 073 044 98 65</p>
-					</div>
 
 					<div className='flex items-center space-x-5'>
 						<EnvelopeIcon className=' text-red-500 h-7 w-7 animate-pulse ' />
-						<p>ilchenko19061998@gmail.com</p>
+						<p>tkac19061998@gmail.com</p>
 					</div>
 
 					<div className='flex items-center space-x-5'>

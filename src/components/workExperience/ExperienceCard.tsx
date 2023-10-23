@@ -2,12 +2,14 @@ import { FC } from 'react'
 import {
 	SiCss3,
 	SiHtml5,
+	SiPhp,
 	SiReact,
 	SiRedux,
 	SiSass,
 	SiTailwindcss,
 	SiTypescript
 } from 'react-icons/si'
+import {FaVuejs} from 'react-icons/fa'
 
 export const ExperienceCard: FC = () => {
 	return (
@@ -25,6 +27,9 @@ export const ExperienceCard: FC = () => {
 					<SiTypescript className='h-8 w-8 text-blue-500' />
 					<SiSass className='h-8 w-8 text-red-700' />
 					<SiTailwindcss className='h-8 w-8 text-blue-700' />
+					<SiPhp className='h-8 w-8 text-green-700' />
+					<FaVuejs className='h-8 w-8 text-green-700' />
+					
 				</div>
 				<p className='uppercase py-5 text-gray-300'>
 					started work: 04.2022 - until now
@@ -33,7 +38,9 @@ export const ExperienceCard: FC = () => {
 				<ul className='list-disc space-y-4 ml-5 text-lg'>
 					<li>Adaptive layout for website</li>
 					<li>Adaptive layout for mobile app (React Native)</li>
-					<li>Was responsible for part of the business logic of the online store</li>
+					<li>
+						Was responsible for part of the business logic of the online store
+					</li>
 				</ul>
 			</div>
 		</article>

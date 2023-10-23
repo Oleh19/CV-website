@@ -9,8 +9,11 @@ import redux from '../../assets/image/redux.png'
 import sass from '../../assets/image/sass.png'
 import html from '../../assets/image/html.webp'
 import css from '../../assets/image/css.webp'
+import php from '../../assets/image/php.png'
+import vue from '../../assets/image/vue.png'
 
-const icons = [react, ts, js, tailwind, redux, sass, html, css]
+
+const icons = [react, ts, js, tailwind, redux, sass, html, css, php, vue]
 
 export const Skills: FC = () => {
 	return (
