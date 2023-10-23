@@ -18,14 +18,17 @@ const experience = [
 	{
 		title: 'Middle Frontend Developer',
 		employer: 'Loogol',
-		icons: [SiCss3,
+		icons: [
+			SiCss3,
 			SiHtml5,
 			SiNextdotjs,
 			SiReact,
 			SiRedux,
 			SiSass,
 			SiTailwindcss,
-			SiTypescript, SiNuxtdotjs],
+			SiTypescript,
+			SiNuxtdotjs
+		],
 		startWork: 12.2022,
 		endWork: 'still working',
 		responsibilites: [
@@ -38,21 +41,24 @@ const experience = [
 	{
 		title: 'Frontend Developer',
 		employer: 'Freelance',
-		icons: [SiCss3,
+		icons: [
+			SiCss3,
 			SiHtml5,
 			SiReact,
 			SiRedux,
 			SiSass,
 			SiTailwindcss,
-			SiTypescript, SiVuedotjs],
-		startWork: 11.2020,
+			SiTypescript,
+			SiVuedotjs
+		],
+		startWork: 11.202,
 		endWork: 12.2022,
 		responsibilites: [
 			'	The main developer who has worked on a wide range of projects, from landing pages to a factory`s CMS system.',
 			'Has created several large projects from scratch. Participated in all stages of application development.',
 			'Interacted directly with clients to determine precise acceptance criteria.'
 		]
-	},
+	}
 ]
 
 export const WorkExperience: FC = () => {
@@ -68,11 +74,9 @@ export const WorkExperience: FC = () => {
 			</h3>
 
 			<div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-5 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-red-500'>
-				{
-					experience.map((job, index) => (
-						<ExperienceCard key={index} {...job} />
-					))
-				}
+				{experience.map((job, index) => (
+					<ExperienceCard key={index} {...job} />
+				))}
 			</div>
 		</motion.div>
 	)
